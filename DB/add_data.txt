@@ -1,0 +1,14 @@
+use jadrn030;
+
+insert into vendor values(NULL,'Becca');
+insert into vendor values(NULL,'Burberry');
+insert into vendor values(NULL,'Clinique');
+insert into vendor values(NULL,'Dior');
+insert into vendor values(NULL,'Josie Maran');
+insert into vendor values(NULL,'Marc Jacobs');
+insert into vendor values(NULL,'Tata Harper');
+
+insert into category values(NULL,'Face');
+insert into category values(NULL,'Eyes');
+insert into category values(NULL,'Lips');
+insert into category values(NULL,'Nails');

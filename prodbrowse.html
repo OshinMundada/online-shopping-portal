@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>BeautyBae</title>
+<link rel="stylesheet" type="text/css" href="css/prod.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/prod.js"></script>
+<!-- <script type="text/javascript" src="js/ajax_populate_page.js"></script>
+<script type="text/javascript" src="js/shopping_cart.js"></script> -->
+</head>
+
+<body>
+
+<h1 id="heading"> BeautyBae <span id="cart"><a href="http://jadran.sdsu.edu/jadrn030/servlet/CartServlet?requesttype=showCart"><i class="fa fa-shopping-bag fa-2x"></i><br> Cart:<span id="count">0</span></a></span></h1>
+
+<div id="sidebar">
+<h3> MAKEUP </h3>
+<h4>SHOP CATEGORIES</h4>
+<ul>
+<li><input type="checkbox" class="category_checkbox" name="category" value="Face">Face</li>
+<li><input type="checkbox" class="category_checkbox" name="category" value="Eyes">Eye</li>
+<li><input type="checkbox" class="category_checkbox" name="category" value="Lips">Lip</li>
+<li><input type="checkbox" class="category_checkbox" name="category" value="Nails">Nails</li>
+</ul>
+<h4>SHOP BRANDS</h4>
+<ul>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Becca">Becca</li>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Burberry">Burberry</li>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Clinique">Clinique</li>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Dior">Dior</li>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Josie Maran">Josie Maran</li>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Marc Jacobs">Marc Jacobs</li>
+<li><input type="checkbox" class="vendor_checkbox" name="brands" value="Tata Harper">Tata Harper</li>
+
+<input id="filter" type="button" name="filter" value="Apply filters" />
+
+</div>
+<div id="contentdiv">
+<img src="images/cover_makeup.jpg" width="100%" />
+
+<div id="products_container">
+</div>
+
+
+</div>
+
+</body>
+</html>

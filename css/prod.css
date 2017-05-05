@@ -1,0 +1,122 @@
+html
+{
+	overflow-x: hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+    font-family: 'Lithos Pro';
+	overflow-x: hidden;
+    margin: 0;
+
+    /*background: url('../images/bge.jpg') no-repeat center center fixed; 
+    background-size: cover;*/
+}
+
+#heading{
+	width: 100%;
+	text-align: center;
+	font-family: 'Edwardian Script ITC';
+	font-size: 70px;
+
+	color: black;
+	margin: 20px 0px;
+	font-weight: normal;
+	/*border-bottom: 2px solid #d3d3d3;*/
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cart{
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	font-family: 'Times New Roman';
+}
+
+#sidebar{
+	width:20%;
+	height:100%;
+	padding:10px 0px 0px 40px;
+	border-right: 2px solid black;
+	position: fixed;
+}
+
+input[type=checkbox] {
+	padding:5px;
+}
+
+ul{
+	list-style-type: none;
+	padding: 2px;
+}
+
+ul li{
+	padding: 2px;
+}
+
+#contentdiv {
+	width:76%;
+	height:100%;
+	position: inline;
+	float: right;
+}
+
+#products_container {
+	width:100%;
+	/*height:100%;
+	*/position: inline;
+	float: right;
+
+}
+
+.product_display {
+	height: 340px;
+	width: 40%;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 25px;
+		vertical-align: top;
+}
+
+.prodimg {
+	float: left;
+	display: inline;
+	width: 45%;
+	height: 45%;
+	border: 1px solid black;
+	margin: auto 10px 10px auto;
+}
+
+.product_display h4 {
+	margin: 0px 0px 15px 0px;
+}
+
+.product_display p {
+	/*display: inline-block;*/
+	padding-bottom: 20px;
+	margin: 0px;
+}
+
+.knowmore {
+	margin: 0px auto;
+	background-color: #aa0000;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+#filter{
+	padding: 10px;
+	background-color: #aa0000;
+	color: white;
+	margin: 25px 10px;
+}
+
+.status {
+	color: #aa0000;
+	float: right;
+	display: inline;
+	
+}

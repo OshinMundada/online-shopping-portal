@@ -1,0 +1,18 @@
+use jadrn030;
+
+insert into product values(
+	"UCF-819",1,1,"Shimmering Skin Perfector Pressed","A creamy, highlighting powder with duo-chrome pigments to impart a captivating light effect that transforms as you move.","Achieve a sophisticated, prismatic glow in any light with this limited-edition Shimmering Skin Perfector Pressed Highlighter. It’s enriched with color-shifting pigments that reflect and refract light for a multi-faceted, holographic chameleon effect. Prismatic Amethyst is infused with pale gold, violet, and rose pearls to create a unique, iridescent sheen that shifts as you move. It's perfect for highlighting or layering to create a truly unique glow. The result is a high-shine, elegant shimmer finish that doesn't look glittery.",25.00,38.50, "ucf-819.jpg");
+
+insert into product values(
+	"OBM-104",1,1,"Backlight Targeted Colour Corrector","A highly pigmented, targeted cream color corrector that neutralizes discolorations while brightening up the complexion with light-reflecting pearls.","Backlight Targeted Colour Correctors feature a highly pigmented formula that neutralizes discoloration. This creamy formula is infused with subtle luminosity to blur the look of imperfections, leaving your skin looking corrected and luminous.",15.95,30.00, "obm-104.jpg");
+
+
+insert into product values(
+	"OYM-951",2,2,"Sheer Luminous Concealer","A fluid concealer that adds instant luminosity, perfects skintone, and enhances natural beauty for a bright and radiant look.","This light-reflecting concealer perfects skintone and instantly brightens the complexion. The lightweight texture provides sheer coverage to conceal subtle imperfections effortlessly and enhance natural beauty with just a few strokes.",13.75,40, "oym-951.jpg");
+
+insert into product values(	
+	"DSS-694",3,3,"Long Last Soft Matte Lipstick","A creamy, matte lip color with staying power.","This lipstick keeps its soft, matte finish for hours. It will not feather, creep, stain, or dry out.",9.95,17.00, "dss-694.jpg");
+
+insert into product values(	
+	"ECJ-010",3,3,"Clinique Crayola Chubby Crayon Box","An eight-piece, limited-edition collection of Chubby Sticks for the lips, in sheer-to-intense shades.","Get vibrant, nourishing color with Clinique's Crayola Chubby Sticks. They're loaded with mango and shea butters so that your lips are left feeling comfortably soft and smooth.",30.10,49.50, "ecj-010.jpg");
+

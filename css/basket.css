@@ -1,0 +1,105 @@
+html
+{
+	overflow-x: hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+    font-family: 'Lithos Pro';
+	overflow-x: hidden;
+    margin: 0;
+
+    /*background: url('../images/bge.jpg') no-repeat center center fixed; 
+    background-size: cover;*/
+}
+
+#heading{
+	width: 100%;
+	text-align: center;
+	font-family: 'Edwardian Script ITC';
+	font-size: 70px;
+
+	color: black;
+	margin: 20px 0px;
+	font-weight: normal;
+	/*border-bottom: 2px solid #d3d3d3;*/
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cart{
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	font-family: 'Times New Roman';
+}
+
+h3 {
+	font-size: 25px;
+	margin: 30px 0px 10px 50px;
+	font-weight: normal;
+}
+
+table {
+	border: 1px solid black;
+	background-color: #ffc4cd;
+	margin: 20px 30px;
+	display: inline-table;
+}
+
+
+.cart_table tr td {
+
+	padding: 20px;
+	max-width: 200px;
+}
+img {
+	width: 100px;
+}
+
+.qtycart {
+	width: 50px;
+}
+
+.checkout_table {
+	width: 30%;
+	vertical-align: top;
+}
+
+.checkout_table tr td {
+	padding: 10px;
+	max-width: 300px;
+}
+
+#checkoutbutton {
+	padding: 10px;
+	background-color: #aa0000;
+	color: white;
+	font-size: 15px;
+}
+
+#cancelbutton {
+	padding: 10px;
+	background-color: #e2e2e2;
+	color: white;
+	font-size: 15px;
+}
+
+.skuhide {
+	display: none;
+}
+
+.emptyclass {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+
+.emptyclass h5	{
+	   background-color: pink;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: normal;
+}
+}

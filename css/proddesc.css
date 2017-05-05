@@ -1,0 +1,80 @@
+html
+{
+	overflow-x: hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+    font-family: 'Lithos Pro';
+	overflow-x: hidden;
+    margin: 0;
+
+    /*background: url('../images/bge.jpg') no-repeat center center fixed; 
+    background-size: cover;*/
+}
+
+#heading{
+	width: 100%;
+	text-align: center;
+	font-family: 'Edwardian Script ITC';
+	font-size: 70px;
+
+	color: black;
+	margin: 20px 0px;
+	font-weight: normal;
+	/*border-bottom: 2px solid #d3d3d3;*/
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cart{
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	font-family: 'Times New Roman';
+}
+
+#goback {
+	font-family: Arial;
+	font-size: 16px;
+	margin: 20px 40px;
+}
+
+#container {
+	width:100%;
+	/*padding: 20px;*/
+}
+
+#prodimg {
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin: 10px 30px 100px 30px;
+	border: 1px solid black;
+	display: inline;
+}
+
+h4, p {
+	padding: 5px 15px 15px 10px;
+}
+
+#nextstep {
+	float: right;
+	border: 1px solid #0f0f0f;
+	width: 20%;
+	height: 20%;
+	margin:20px 40px 20px 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+#addtobasket {
+background-color: #aa0000;
+padding: 10px;
+color: white;
+padding-bottom: 0px;
+width: 100px;
+font-size: 15px;
+word-wrap: break-word;
+height: 60px;
+}

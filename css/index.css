@@ -1,0 +1,95 @@
+html
+{
+	overflow-x: hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+    font-family: 'Lithos Pro';
+	overflow-x: hidden;
+    margin: 0;
+    background: url('../images/bge.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#heading{
+	width: 100%;
+	text-align: center;
+	font-family: 'Edwardian Script ITC';
+	font-size: 130px;
+	color: white;
+	margin-top: 8%;
+}
+
+.login{
+
+	position: absolute;
+	top: calc(50% - 60px);
+	left: calc(50% - 125px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+#uname{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+#pwd{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+#subbut{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+
+#uname:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+#pwd:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+#loginmsg {
+	width: 100%;
+	text-align: center;
+	color: 	#eb2d53;
+	font-family: 'Times New Roman';
+	font-size: 20px;
+
+}

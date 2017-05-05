@@ -1,0 +1,106 @@
+html
+{
+	overflow-x: hidden;
+}
+body {
+	height: 100%;
+	width: 100%;
+    font-family: 'Lithos Pro';
+	overflow-x: hidden;
+    margin: 0;
+
+    /*background: url('../images/bge.jpg') no-repeat center center fixed; 
+    background-size: cover;*/
+}
+
+#heading{
+	width: 100%;
+	text-align: center;
+	font-family: 'Edwardian Script ITC';
+	font-size: 70px;
+
+	color: black;
+	margin: 20px 0px;
+	font-weight: normal;
+	/*border-bottom: 2px solid #d3d3d3;*/
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cart{
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	font-family: 'Times New Roman';
+}
+
+#error_message
+{
+	font-family: 'Times New Roman';
+	font-size: 18px;
+	color: #FF0000;
+	padding: 10px;
+}
+
+#formcontainer
+{
+	width:45%;
+	margin:20px auto;
+	background-color: #ffe9ec;
+	padding:15px;
+}
+
+#formmain
+{
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	padding: 10px;
+	border: 2px dotted #996d73;
+}
+
+#formmain fieldset
+{
+	margin:10px;
+}
+.leg
+{
+	font-size: 20px;
+	font-weight: normal;
+	color: #996d73;
+}
+#formmain table
+{
+	width:100%;
+	table-layout: fixed;
+}
+
+#formmain td
+{
+	width:33.33%;
+	padding:10px;
+}
+
+.mob
+{
+	width:15%;
+	min-width: 10%;
+}
+
+#butcontainer
+{
+	width:100%;
+	text-align: center;
+
+}
+.but
+{
+	background-color: crimson;
+	color:white;
+	border: 1px solid crimson;
+	font-family: 'Lithos Pro';
+	font-size:15px;
+	padding: 7px;
+	margin-right: 25px;
+}
+

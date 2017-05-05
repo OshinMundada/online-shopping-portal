@@ -1,0 +1,7 @@
+use jadrn030;
+CREATE TABLE on_hand (
+	sku varchar(7),
+	last_date_modified varchar(15),
+	on_hand_quantity int(10),
+	PRIMARY KEY (sku)
+);

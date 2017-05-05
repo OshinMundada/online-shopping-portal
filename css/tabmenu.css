@@ -1,0 +1,67 @@
+
+
+h2 { 
+    text-align: center; 
+    margin:10px 0px;
+}
+
+div#tabs-1 {
+    height: 100%;
+    background: #eb6280;
+    border: 1px solid #009;
+    padding: 5px;
+}
+div#tabs-2 {
+    height: 100%;
+    background: #008f95;
+    border: 1px solid #009;    
+    padding: 5px;
+}
+/*div#tabs-3 {
+    height: 100%;
+    background: #000;
+    border: 1px solid #009;    
+    padding: 5px;
+}*/
+
+
+.ui-tabs-hide {
+    display: none;
+}
+
+div#tabs {
+    margin: auto;
+    width: 50%;
+    /*height: 500px;*/
+    min-width:500px;
+    }
+    
+div#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px 151px;
+    height: 22px;
+    border-bottom: 1px solid #000;
+}
+div#tabs ul li {
+    font-weight: normal;
+    font-size: 90%;
+    float: left;
+    height: 17px;
+    padding: 15px 15px 15px 15px;
+    margin-right: 5px;
+    border: 3px solid #555;
+    border-bottom: none;
+    position: relative;
+    background: #e9b000;
+}
+div#tabs ul li a {
+    text-decoration: none;
+    color: black;
+}
+div#tabs ul li.ui-tabs-selected {
+    background: #CCC;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}

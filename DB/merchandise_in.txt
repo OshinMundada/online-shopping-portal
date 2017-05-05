@@ -1,0 +1,6 @@
+use jadrn030;
+CREATE TABLE merchandise_in (
+	sku varchar(7),
+	date varchar(15),
+	quantity int(10)
+);

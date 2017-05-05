@@ -1,0 +1,140 @@
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	margin: 10px;
+	background-color: #000066;
+    background-image: url('../images/bge.jpg');
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Edwardian Script ITC';
+	font-size: 70px;
+	color: white;
+	font-weight: normal;
+	margin: 10px;
+}
+
+
+.formcontent {
+    position:relative;
+    margin:20px auto;
+    width:400px;
+    z-index:1;
+    padding:5px 30px;
+    border:5px solid #b30000;
+    background: #ffe6f0;
+    font-size: 15px;
+}
+
+input:not([type="button"]), textarea, select {
+    outline:none;
+    display:block;
+    width:150px;
+    padding:4px 8px;
+    margin:0;
+    border:1px dashed #DBDBDB;
+    color:#3F3F3F;
+    font-family:'Droid Sans', Tahoma, Arial, Verdana sans-serif;
+    font-size:14px;
+    border-radius:2px;
+    
+}
+p {
+    display: inline;
+    margin: 8px;
+}
+select {
+    width: 170px;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;   
+}
+
+.descpara, .featpara, #description, #features, #descriptionEdit, #featuresEdit, #descriptionDelete, #featuresDelete {
+    width: 370px;
+    display: block;
+
+}
+
+textarea {
+    resize:vertical;
+}
+
+#features, #featuresEdit, #featuresDelete {
+	min-height:70px;
+}
+
+label {
+    color:#52527a;
+    font-size:16px;
+    
+}
+label:hover {
+    color:#191919;
+}
+
+input[type=button] {
+    display: inline-block;
+    margin: auto;
+    background:red;
+    font-family:'Alice', serif;
+    color:#FFF;
+    font-size:18px;
+    border:1px solid #E0E0E0;
+    padding: 5px;
+    /*border-radius:5px;*/
+}
+
+input[type=button]:disabled {
+    margin: auto;
+    background:#DDD;
+    font-family:'Alice', serif;
+    color:#FFF;
+    font-size:18px;
+    border:1px solid #E0E0E0;
+    border-radius:5px;
+}
+
+#logoutspan {
+    display: inline;
+    width: 100%;
+}
+
+#logout_button {
+    float: right;
+    margin-right: 40px;
+}
+
+.imgpara {
+    padding: 30px 0px;
+}
+
+#pic, #picture, #pictureDelete {
+    margin: 0px 25px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+h3 {
+    margin: 5px ;
+}
+
+#showlater, #showlaterdel {
+    display: none;
+}
+
+#checkEdit, #delete_sku_button {
+    display: inline-block;
+    margin: 15px 50px;
+    background:red;
+    font-family:'Alice', serif;
+    color:#FFF;
+    font-size:18px;
+    border:1px solid #E0E0E0;
+    padding: 5px;
+}
