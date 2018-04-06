@@ -1,4 +1,8 @@
 # online-shopping-portal
+
+[![Watch the video](https://github.com/OshinMundada/online-shopping-portal/blob/master/online_shopping_store_cover.png)](https://youtu.be/tZNZhnqHtKI)
+
+
 An e-commerce website using Java, JSP, Perl, JavaScript, MySQL, HTML/CSS including
 
 > back-end inventory application allowing buyers to add, edit and delete merchandise that the retailer will sell,
